@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.component-section {
+  margin-bottom: 30px;
+}
+
+.balance-display {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #e9ecef;
+}
+
+.balance-display strong {
+  color: #495057;
+  font-size: 1.1rem;
+}
+
+.transfer-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+}
+
+.transfer-section input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.transfer-section input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn:disabled:hover {
+  box-shadow: none;
+}
+
+.connect-section button {
+  margin-bottom: 10px;
+}
+
+.address-display {
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  word-break: break-all;
+}
+
+.copy-btn {
+  background: #6c757d;
+  margin-left: 10px;
+}
+
+.copy-btn:hover {
+  background: #5a6268;
+}
